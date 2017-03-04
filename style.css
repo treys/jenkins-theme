@@ -1,0 +1,65 @@
+@import url(https://jenkins-contrib-themes.github.io/jenkins-neo-theme/dist/neo-light.css);
+
+#description-link img,
+.icon-gear2 {
+  background-image: url(data:image/svg+xml;charset=UTF-8,%3Csvg%20height%3D%2218%22%20viewBox%3D%220%200%2024%2024%22%20width%3D%2218%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20fill%3D%22%239E9E9E%22%20d%3D%22M3%2017.25V21h3.75L17.81%209.94l-3.75-3.75L3%2017.25zM20.71%207.04a.996.996%200%200%200%200-1.41l-2.34-2.34a.996.996%200%200%200-1.41%200l-1.83%201.83%203.75%203.75%201.83-1.83z%22%2F%3E%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%3C%2Fsvg%3E);
+}
+
+.icon-item-move-folder {
+  background-image: url(data:image/svg+xml;charset=UTF-8,%3Csvg%20height%3D%2218%22%20viewBox%3D%220%200%2024%2024%22%20width%3D%2218%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpath%20fill%3D%22%239E9E9E%22%20d%3D%22M10%209h4V6h3l-5-5-5%205h3v3zm-1%201H6V7l-5%205%205%205v-3h3v-4zm14%202l-5-5v3h-3v4h3v3l5-5zm-9%203h-4v3H7l5%205%205-5h-3v-3z%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%0A%3C%2Fsvg%3E);
+}
+
+[src$='device-24x24.png'] {
+  padding-left: 48.96px !important;
+  padding-top: 48.96px !important;
+  height: 0 !important;
+  width: 0 !important;
+  background-size: 100% 100% !important;
+  background-image: url(data:image/svg+xml;charset=UTF-8,%3Csvg%20height%3D%2218%22%20viewBox%3D%220%200%2024%2024%22%20width%3D%2218%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpath%20fill%3D%22%239E9E9E%22%20d%3D%22M18%202h-8L4.02%208%204%2020c0%201.1.9%202%202%202h12c1.1%200%202-.9%202-2V4c0-1.1-.9-2-2-2zm-6%206h-2V4h2v4zm3%200h-2V4h2v4zm3%200h-2V4h2v4z%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%0A%3C%2Fsvg%3E);
+}
+
+[src$='device-24x24.png'][style^="width: 24px"] {
+  padding-left: 24.48px !important;
+  padding-top: 24.48px !important;
+  height: 0 !important;
+  width: 0 !important;
+  background-size: 100% 100% !important;
+}
+
+[src$='cfg_logo.png'] {
+  padding-left: 48.96px !important;
+  padding-top: 48.96px !important;
+  height: 0 !important;
+  width: 0 !important;
+  background-size: 100% 100% !important;
+  background-image: url(data:image/svg+xml;charset=UTF-8,%3Csvg%20height%3D%2218%22%20viewBox%3D%220%200%2024%2024%22%20width%3D%2218%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpath%20fill%3D%22%239E9E9E%22%20d%3D%22M18%2017H6v-2h12v2zm0-4H6v-2h12v2zm0-4H6V7h12v2zM3%2022l1.5-1.5L6%2022l1.5-1.5L9%2022l1.5-1.5L12%2022l1.5-1.5L15%2022l1.5-1.5L18%2022l1.5-1.5L21%2022V2l-1.5%201.5L18%202l-1.5%201.5L15%202l-1.5%201.5L12%202l-1.5%201.5L9%202%207.5%203.5%206%202%204.5%203.5%203%202v20z%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%0A%3C%2Fsvg%3E);
+}
+
+[src$='cfg_logo.png'][style^="width: 24px"] {
+  padding-left: 24.48px !important;
+  padding-top: 24.48px !important;
+  height: 0 !important;
+  width: 0 !important;
+  background-size: 100% 100% !important;
+}
+
+.logo img {
+  display: none;
+}
+
+#jenkins-home-link {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 40px;
+  text-decoration: none;
+}
+
+#jenkins-home-link:hover {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+#jenkins-home-link:after {
+  content: 'Bitworthy Deploy';
+}
