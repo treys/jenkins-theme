@@ -90,3 +90,63 @@ img[alt='Manage and Assign Roles'] {
 #jenkins-home-link:after {
   content: 'Bitworthy Deploy';
 }
+
+/* Delivery Pipeline Plugin */
+.pipeline-main {
+  border-style: none !important;
+}
+
+.pipeline-main .stage {
+  border-color: #b3d4ff !important;
+  border-radius: 0px !important;
+}
+
+.pipeline-main .stage-header {
+  background: #fafafa;
+}
+
+.pipeline-main .IDLE {
+    border-left: 6px solid #d3d3d3;
+}
+
+.pipeline-main .QUEUED {
+    border-left: 6px solid darkblue;
+}
+
+.pipeline-main .FAILED {
+    border-left: 6px solid #8b0000;
+    background-color: rgba(255, 16, 0, 0.78);
+    color: #ffffff;
+}
+
+.pipeline-main .SUCCESS {
+    border-left: 6px solid #009688 !important;
+    background-color: rgba(0, 150, 136, 0.25) !important;
+}
+
+.pipeline-main .UNSTABLE {
+    border-left: 6px solid #fcae3f;
+    background-color: #fad42e;
+    font-weight: bold;
+}
+
+.pipeline-main .CANCELLED {
+    border-left: 6px solid #8b8989;
+    background-color: #d3d3d3;
+    font-weight: bold;
+}
+
+.pipeline-main .NOT_BUILT {
+    border-left: 6px solid #8b8989;
+    background-color: #d3d3d3;
+    font-weight: bold;
+}
+
+.pipeline-main .DISABLED {
+    border-left: 6px solid transparent;
+    color: #a9a9a9;
+}
+
+.pipeline-main .RUNNING {
+    border-left: 6px solid #0092ef;
+}
